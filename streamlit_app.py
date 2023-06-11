@@ -21,21 +21,13 @@ if selected_tab == "Chat Analyzer":
     </style>
 
     <div id="about-text">
-    Welcome to the WhatsApp Chat Analyzer! This powerful application allows you to gain valuable insights from your WhatsApp chat data. By simply uploading your chat file, you can unlock a wealth of information about your conversations, providing you with a deeper understanding of your communication patterns.
+   The WhatsApp Chat Analyzer is a valuable tool that allows users to gain insights from their WhatsApp chat data. 📊 By analyzing various aspects of the chat, such as message count, word count, media shared, and links exchanged, users can understand their communication patterns and overall engagement. 📈 This information can be visualized through interactive charts and graphs, making it easier to grasp the dynamics of the conversations. 📊📈
 
-    With the WhatsApp Chat Analyzer, you can explore various aspects of your chat data. The app provides you with comprehensive statistics such as the total number of messages, words, media shared, and links exchanged. By visualizing this data, you can quickly grasp the overall activity and engagement within your chat.
+The app also offers features to analyze the chat timeline, allowing users to identify peak periods of communication and detect any emerging trends or patterns. ⏰ Additionally, the analysis of emoji usage provides insights into the emotions and sentiments expressed during conversations. 🎭 By examining the frequency and variety of emojis used by different users, users can gain a deeper understanding of the emotional dynamics within the chats. 😄❤️
 
-    Furthermore, the app enables you to analyze your chat timeline on both monthly and daily scales. By plotting the number of messages over time, you can identify peak periods of communication and observe any trends or patterns that may emerge. This information can be invaluable for understanding the dynamics of your group or individual conversations.
+For businesses, the ability to export and analyze user data can be highly valuable. 🔍📈 By analyzing user behavior, preferences, and trends, companies can make informed decisions and tailor their products and services to better meet customer needs. 💼 Data analysis enables businesses to identify growth opportunities, optimize marketing strategies, and enhance overall customer satisfaction. 💡📈 Ultimately, the insights gained from analyzing user data can drive customer engagement, loyalty, and revenue generation. 💪💰
 
-    The WhatsApp Chat Analyzer also offers interactive visualizations, such as activity maps and word clouds. Activity maps help you visualize the busiest days and months, giving you insights into when the conversation is most active. Word clouds provide a visual representation of the most frequently used words, giving you a glimpse into the topics that dominate your chats.
-
-    Additionally, the app allows you to explore emoji usage in your chats. By analyzing the frequency and variety of emojis used by different users, you can gain insights into the emotions and sentiments expressed during conversations.
-
-    By leveraging the power of data analysis and visualization, the WhatsApp Chat Analyzer empowers you to uncover hidden trends, discover communication patterns, and gain a deeper understanding of your chat data. Whether you're analyzing group dynamics, evaluating your own communication habits, or simply curious about the insights hidden within your chats, this app provides a user-friendly and intuitive interface for exploring and interpreting your WhatsApp data.
-
-    Furthermore, the ability to export and analyze user data has become increasingly valuable for businesses. By analyzing user behavior, preferences, and trends, companies can make informed decisions and tailor their products and services to meet customer needs. Data analysis enables businesses to identify opportunities for growth, optimize marketing strategies, and improve overall customer satisfaction. The insights gained from analyzing user data can ultimately drive monetization efforts by increasing customer engagement, loyalty, and revenue.
-
-    With the WhatsApp Chat Analyzer and applications like it, users and businesses alike can harness the power of data analysis to extract valuable insights from user data. Start analyzing your WhatsApp chats today and unlock the power of data-driven insights!
+Overall, the WhatsApp Chat Analyzer is a user-friendly and powerful tool that empowers both individuals and businesses to uncover hidden trends, discover communication patterns, and gain valuable insights from WhatsApp chat data. 💻📊 Start analyzing your WhatsApp chats today and unlock the power of data-driven insights! 🔓💡
     </div>
     ''', unsafe_allow_html=True)
     # Rest of the code for the Chat Analyzer page
