@@ -11,36 +11,34 @@ selected_tab = st.sidebar.radio("Navigation", tabs)
 if selected_tab == "Chat Analyzer":
     # Code for the main Chat Analyzer page
     st.title("WhatsApp Chat Analyzer")
-    st.markdown('''
-    <style>
-    #about-text {
-      font-family: Arial, sans-serif;
-      font-size: 16px;
-      line-height: 1.5;
-    }
-    </style>
+
+    about_text = '''
     <div id="about-text">
-   The WhatsApp Chat Analyzer is a valuable tool that allows users to gain insights from their WhatsApp chat data. 📊 By analyzing various aspects of the chat, such as message count, word count, media shared, and links exchanged, users can understand their communication patterns and overall engagement. 📈 This information can be visualized through interactive charts and graphs, making it easier to grasp the dynamics of the conversations. 📊📈
+      The WhatsApp Chat Analyzer is a valuable tool that allows users to gain insights from their WhatsApp chat data. 📊 By analyzing various aspects of the chat, such as message count, word count, media shared, and links exchanged, users can understand their communication patterns and overall engagement. 📈 This information can be visualized through interactive charts and graphs, making it easier to grasp the dynamics of the conversations. 📊📈
 
-The app also offers features to analyze the chat timeline, allowing users to identify peak periods of communication and detect any emerging trends or patterns. ⏰ Additionally, the analysis of emoji usage provides insights into the emotions and sentiments expressed during conversations. 🎭 By examining the frequency and variety of emojis used by different users, users can gain a deeper understanding of the emotional dynamics within the chats. 😄❤️
+      The app also offers features to analyze the chat timeline, allowing users to identify peak periods of communication and detect any emerging trends or patterns. ⏰ Additionally, the analysis of emoji usage provides insights into the emotions and sentiments expressed during conversations. 🎭 By examining the frequency and variety of emojis used by different users, users can gain a deeper understanding of the emotional dynamics within the chats. 😄❤️
 
-For businesses, the ability to export and analyze user data can be highly valuable. 🔍📈 By analyzing user behavior, preferences, and trends, companies can make informed decisions and tailor their products and services to better meet customer needs. 💼 Data analysis enables businesses to identify growth opportunities, optimize marketing strategies, and enhance overall customer satisfaction. 💡📈 Ultimately, the insights gained from analyzing user data can drive customer engagement, loyalty, and revenue generation. 💪💰
+      For businesses, the ability to export and analyze user data can be highly valuable. 🔍📈 By analyzing user behavior, preferences, and trends, companies can make informed decisions and tailor their products and services to better meet customer needs. 💼 Data analysis enables businesses to identify growth opportunities, optimize marketing strategies, and enhance overall customer satisfaction. 💡📈 Ultimately, the insights gained from analyzing user data can drive customer engagement, loyalty, and revenue generation. 💪💰
 
-Overall, the WhatsApp Chat Analyzer is a user-friendly and powerful tool that empowers both individuals and businesses to uncover hidden trends, discover communication patterns, and gain valuable insights from WhatsApp chat data. 💻📊 Start analyzing your WhatsApp chats today and unlock the power of data-driven insights! 🔓💡
+      Overall, the WhatsApp Chat Analyzer is a user-friendly and powerful tool that empowers both individuals and businesses to uncover hidden trends, discover communication patterns, and gain valuable insights from WhatsApp chat data. 💻📊 Start analyzing your WhatsApp chats today and unlock the power of data-driven insights! 🔓
+     <br><br>
+      <span style="color: red;"><strong>Important:</strong> Please note that the data analyzed by this app is not being saved and is only intended for fun and educational purposes.</span>
     </div>
-    ''', unsafe_allow_html=True)
+    '''
+
+    st.markdown(about_text, unsafe_allow_html=True)
     # Rest of the code for the Chat Analyzer page
 elif selected_tab == "About":
     st.title("About")
-    st.write("why did I make this application?")
+    st.write("why did I make this application?🌐📊🌟")
     st.write(
-        "In today's digital age, data analysis has become crucial for businesses to make informed decisions and drive growth. By analyzing user data, companies can gain valuable insights into customer behavior, preferences, and trends.")
+        "In today's digital age, data analysis has become crucial for businesses to make informed decisions and drive growth💡💼✨. By analyzing user data, companies can gain valuable insights into customer behavior, preferences, and trends.")
     st.write(
-        "With the help of applications like this, you can extract useful information from your WhatsApp chats, such as message statistics, media sharing patterns, activity timelines, and even sentiment analysis. This data can provide valuable insights into your communication patterns, helping you understand your interactions better.")
+        "With the help of applications like this, you can extract useful information from your WhatsApp chats🔓💡✨, such as message statistics, media sharing patterns, activity timelines, and even sentiment analysis. This data can provide valuable insights into your communication patterns, helping you understand your interactions better.")
     st.write(
-        "From a business perspective, the analysis of user data can be instrumental in monetizing a company. By understanding customer preferences and behavior, companies can optimize their marketing strategies, personalize their offerings, and improve customer satisfaction. This, in turn, can lead to increased customer loyalty, retention, and ultimately, revenue.")
+        "From a business perspective, the analysis of user data can be instrumental in monetizing a company💻🔓🚀. By understanding customer preferences and behavior, companies can optimize their marketing strategies, personalize their offerings, and improve customer satisfaction. This, in turn, can lead to increased customer loyalty, retention, and ultimately, revenue.")
     st.write(
-        "Whether you are an individual looking to gain insights from your personal WhatsApp chats or a business seeking to leverage user data for growth, the WhatsApp Chat Analyzer can assist you in unlocking valuable information.")
+        "Whether you are an individual looking to gain insights from your personal WhatsApp chats or a business seeking to leverage user data for growth📈📊, the WhatsApp Chat Analyzer can assist you in unlocking valuable information.")
 
     # Rest of the code for the About page
 elif selected_tab == "Instructions":
